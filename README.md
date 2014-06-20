@@ -10,10 +10,10 @@ I have included my Weka models and output result buffers in **\models** and **\r
 I have included general purpose scripts in **\scripts**. Within this folder, **confusion.sh** can be used to turn Weka’s text-based confusion matrices into csv files to be used with Excel. **start.sh** adds the appropriate Weka sources to the user's CLASSPATH (the user will need to modify the WEKA_PATH variable in the script). Afterwards, a user can use **convert.sh** to restore capitalization and diacritics to a text or to see what would have been the classifier's predictions for a plain-text version. Input is provided through stdin and output will be printed to stdout. This pipeline uses the J48 N=3 classifier. This is neither an efficient pipeline nor is it robust, but it can be used to demonstrate the classifier's basics capabilities.
 
 ##### To run:
+```bash
 . scripts\start.sh
-
 sh scripts\convert.sh < your_file_name
-
+```
 
 ##### Diacritic Key For .arff Files
 

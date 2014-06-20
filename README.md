@@ -17,13 +17,14 @@ sh scripts\convert.sh < your_file_name
 
 
 Diacritic Key For .arff Files
+
 accent | lower | upper
 ------ | ----- | -----
-none | (0) | (6)
-` | (1) | (7)
-´ | (2) | (8)
-^ | (3) | 9)
-~ | (4) | (10)
-ç | (5) | 11)
+none   | (0)   | (6)
+`      | (1)   | (7)
+´      | (2)   | (8)
+^      | (3)   | (9)
+~      | (4)   | (10)
+ç      | (5)   | (11)
 
 
